@@ -763,10 +763,9 @@
 (function(){
 
     // ====== TWOJE PRAWDZIWE HASŁO (czyste) ======
-    <script>
-    const ENCODED_PASSWORD = "Q3h5eHRyYnh5eG54YXgwM3gxMA=="; // Cxyxtxrxyxnxax0x3x1x0
-    const PASSWORD = atob(ENCODED_PASSWORD);
-</script>
+    const ENCODED_PASSWORD = "Q3h5eHRyYnh5eG54YXgwM3gxMA=="; // "Cxyxtxrxyxnxax0x3x1x0"
+const PASSWORD = atob(ENCODED_PASSWORD); // dekodowanie w JS
+    
 
     // ====== GLOBALNY STAN BLOKADY ======
     let unlocked = false;
